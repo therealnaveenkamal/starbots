@@ -1,0 +1,15 @@
+<launch>
+    <!-- Launch move_group.launch.py -->
+    <node
+        pkg="arm_sim"
+        exec="move_group.launch.py"
+        output="screen">
+    </node>
+    
+    <!-- Launch pick_and_place.launch.py with use_sim_time set to True -->
+    <node
+        pkg="moveit2_scripts"
+        exec="pick_and_place.launch.py"
+        output="screen">
+    </node>
+</launch>

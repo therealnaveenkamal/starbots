@@ -1,0 +1,370 @@
+Started by remote host 172.19.0.1
+[8mha:////4AvW4qJFGqPY9rEFn5k8JQnSw3bpeiBwq5fUDWHGgeUJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Jx2pWQ3F7eNYSJ06BiEt6xpyoSCfRjchXhnQ7dfarT2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GIyBZLbqfGryQmXOCRVHQQgPp8CZf6jTKB12fGvWpH3AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /home/user/webpage_ws/jenkins/workspace/Pickup
+[8mha:////4CTLeS/a7oMJV4uB+axu9N9jGs1uoJSk2VC8W/y69zGOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GS/hk4zfyQJlDQp4nyUTTQH2KoGjeG+TeOQNykjlraKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CH9sEJZGq1Wbgpt+nkZyLXDKjgjh2QzoeOEpIF+eLWaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Hello)
+[8mha:////4KVeJ5b61QWMRpDiz5WivxFj2auSe7d/QL1ayGMLuMPXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python3 /home/user/ros2_ws/src/hole_pickup.launch.py
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-03-11-09-21-16-347956-1_xterm-8627
+[INFO] [launch]: Default logging verbosity is set to INFO
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+[INFO] [move_group-1]: process started with pid [8753]
+[move_group-1] 1710148877.096185 [0] move_group: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///var/lib/theconstruct.rrl/cyclonedds.xml line 5)
+[move_group-1] 1710148877.097003 [0] move_group: add_peer_addresses: 1_xterm: unknown address
+[move_group-1] 1710148877.097003 [0] move_group: add_peer_addresses: 1_xterm: unknown address
+[move_group-1] [INFO] [1710148877.171154023] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0595171 seconds
+[move_group-1] [INFO] [1710148877.171231765] [moveit_robot_model.robot_model]: Loading robot model 'name'...
+[move_group-1] [INFO] [1710148877.582523329] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-1] [INFO] [1710148877.582733602] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-1] [INFO] [1710148877.583259174] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-1] [INFO] [1710148877.583916578] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-1] [INFO] [1710148877.583942479] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-1] [INFO] [1710148877.585143050] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-1] [INFO] [1710148877.585172850] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-1] [INFO] [1710148877.585623362] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-1] [INFO] [1710148877.586208350] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-1] [WARN] [1710148877.588605827] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-1] [ERROR] [1710148877.588636011] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-1] [INFO] [1710148877.754021586] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[move_group-1] [INFO] [1710148877.766816417] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
+[move_group-1] [INFO] [1710148877.777497221] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710148877.777527549] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710148877.777535594] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1710148877.777568351] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1710148877.777586810] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1710148877.777594200] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710148877.777609906] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710148877.777616926] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[move_group-1] [INFO] [1710148877.777628451] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1710148877.777644121] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1710148877.777652088] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1710148877.777657583] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1710148877.777663116] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1710148877.777668387] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1710148877.777673810] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [INFO] [1710148877.779621156] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[move_group-1] [INFO] [1710148877.789074156] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-1] [INFO] [1710148877.799149496] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-1] [INFO] [1710148877.799180548] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[move_group-1] [INFO] [1710148877.801498092] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[move_group-1] [INFO] [1710148877.801526186] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[move_group-1] [INFO] [1710148877.803011943] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[move_group-1] [INFO] [1710148877.803037838] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[move_group-1] [INFO] [1710148877.804497019] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[move_group-1] [INFO] [1710148877.804539108] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[move_group-1] [INFO] [1710148877.805908618] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-1] [INFO] [1710148877.832018661] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-1] [INFO] [1710148877.842470977] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710148877.842500617] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710148877.842507962] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1710148877.842534208] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1710148877.842552164] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1710148877.842559051] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710148877.842573582] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710148877.842580274] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-1] [INFO] [1710148877.842587400] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1710148877.842601333] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1710148877.842607777] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1710148877.842612891] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1710148877.842617942] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1710148877.842622700] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1710148877.842627497] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [INFO] [1710148877.890002125] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148877.890077522] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
+[move_group-1] [INFO] [1710148877.892153438] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for gripper_controller
+[move_group-1] [INFO] [1710148877.892309161] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148877.892365258] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148877.892726769] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-1] [INFO] [1710148877.892747663] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-1] [INFO] [1710148877.924593223] [move_group.move_group]: 
+[move_group-1] 
+[move_group-1] ********************************************************
+[move_group-1] * MoveGroup using: 
+[move_group-1] *     - ApplyPlanningSceneService
+[move_group-1] *     - ClearOctomapService
+[move_group-1] *     - CartesianPathService
+[move_group-1] *     - ExecuteTrajectoryAction
+[move_group-1] *     - GetPlanningSceneService
+[move_group-1] *     - KinematicsService
+[move_group-1] *     - MoveAction
+[move_group-1] *     - MotionPlanService
+[move_group-1] *     - QueryPlannersService
+[move_group-1] *     - StateValidationService
+[move_group-1] ********************************************************
+[move_group-1] 
+[move_group-1] [INFO] [1710148877.924644748] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-1] [INFO] [1710148877.924658554] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-1] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-1] [0m[92m
+[move_group-1] You can start planning now!
+[move_group-1] 
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-03-11-09-21-21-335669-1_xterm-8830
+[INFO] [launch]: Default logging verbosity is set to INFO
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+[INFO] [pick_hole0-1]: process started with pid [8880]
+[pick_hole0-1] 1710148882.412369 [0] pick_hole0: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///var/lib/theconstruct.rrl/cyclonedds.xml line 5)
+[pick_hole0-1] 1710148882.413163 [0] pick_hole0: add_peer_addresses: 1_xterm: unknown address
+[pick_hole0-1] 1710148882.413163 [0] pick_hole0: add_peer_addresses: 1_xterm: unknown address
+[pick_hole0-1] [INFO] [1710148882.426078121] [move_group_demo]: Pose: 0.000000, 0.000000
+[pick_hole0-1] [INFO] [1710148882.487615106] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.06126 seconds
+[pick_hole0-1] [INFO] [1710148882.487667893] [moveit_robot_model.robot_model]: Loading robot model 'name'...
+[pick_hole0-1] [INFO] [1710148882.622558206] [move_group_interface]: Ready to take commands for planning group ur_manipulator.
+[pick_hole0-1] [INFO] [1710148882.633912689] [move_group_interface]: Ready to take commands for planning group gripper.
+[pick_hole0-1] [INFO] [1710148882.634483913] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[pick_hole0-1] [INFO] [1710148888.688331192] [move_group_demo]: Open Gripper
+[pick_hole0-1] [INFO] [1710148888.688517964] [move_group_interface]: MoveGroup action client/server ready
+[pick_hole0-1] [INFO] [1710148888.689150858] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710148888.688921376] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1710148888.689164678] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710148888.826149509] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710148888.827391725] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'gripper' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [WARN] [1710148888.911238427] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[move_group-1] [INFO] [1710148888.911661199] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_hole0-1] [INFO] [1710148888.912286675] [move_group_interface]: Planning request complete!
+[pick_hole0-1] [INFO] [1710148888.913329919] [move_group_interface]: time taken to generate plan: 0.0119391 seconds
+[move_group-1] [INFO] [1710148888.913728698] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148888.913893743] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148888.913899915] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148888.913945472] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148888.913977931] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148888.914095912] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148889.050160675] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148889.050224582] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148889.050247134] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [WARN] [1710148889.818847699] [moveit.simple_controller_manager.gripper_controller_handle]: waitForExecution timed out
+[move_group-1] [ERROR] [1710148889.818891590] [moveit_ros.trajectory_execution_manager]: Controller is taking too long to execute trajectory (the expected upper bound for the trajectory execution was 0.500000 seconds). Stopping trajectory.
+[move_group-1] [INFO] [1710148889.818920119] [moveit.simple_controller_manager.gripper_controller_handle]: Cancelling execution for gripper_controller
+[move_group-1] [INFO] [1710148890.087217019] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status TIMED_OUT ...
+[move_group-1] [INFO] [1710148890.087347071] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: TIMED_OUT
+[pick_hole0-1] [INFO] [1710148890.087769264] [move_group_interface]: Execute request aborted
+[pick_hole0-1] [ERROR] [1710148890.087848016] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[move_group-1] [INFO] [1710148890.088292427] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_hole0-1] [INFO] [1710148890.087884352] [move_group_demo]: Going Home
+[move_group-1] [INFO] [1710148890.088415774] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[pick_hole0-1] [INFO] [1710148890.088024374] [move_group_interface]: MoveGroup action client/server ready
+[pick_hole0-1] [INFO] [1710148890.088439147] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710148890.224947751] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710148890.225578294] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710148890.321888568] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_hole0-1] [INFO] [1710148890.322617652] [move_group_interface]: Planning request complete!
+[pick_hole0-1] [INFO] [1710148890.323496894] [move_group_interface]: time taken to generate plan: 0.0175126 seconds
+[move_group-1] [INFO] [1710148890.324090411] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148890.324233235] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148890.324206011] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148890.324248746] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148890.324276940] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148890.324359995] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148890.468499473] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148890.468593335] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148890.468623878] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148890.468925879] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148890.738763754] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710148890.738817022] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-1] [INFO] [1710148896.989410734] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[move_group-1] [INFO] [1710148897.398347682] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148897.398456751] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148897.398920295] [move_group_interface]: Execute request success!
+[pick_hole0-1] [INFO] [1710148897.399367304] [move_group_demo]: Close Gripper
+[pick_hole0-1] [INFO] [1710148897.399541936] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710148897.399837960] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_hole0-1] [INFO] [1710148897.399989413] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710148897.399955204] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710148897.536768926] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710148897.537277024] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'gripper' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710148897.787488453] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_hole0-1] [INFO] [1710148897.794293375] [move_group_interface]: Planning request complete!
+[pick_hole0-1] [INFO] [1710148897.794833561] [move_group_interface]: time taken to generate plan: 0.0165088 seconds
+[move_group-1] [INFO] [1710148897.801806671] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148897.801980598] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148897.801952469] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148897.801984084] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148897.802010970] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148897.802773705] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148897.940038267] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148897.940099671] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148897.940131462] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148903.676357769] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148903.676629327] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148903.677195149] [move_group_interface]: Execute request success!
+[pick_hole0-1] [INFO] [1710148903.678058022] [move_group_demo]: Retreat from object!
+[move_group-1] [INFO] [1710148903.814071515] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710148903.814189745] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710148903.833825422] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 61 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710148903.834910462] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148903.835053640] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148903.835044961] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148903.835078036] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148903.835130621] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148903.835189646] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148903.972463527] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148903.972519804] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148903.972543806] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148903.972708065] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148904.241832797] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710148904.241876627] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-1] [INFO] [1710148908.242728163] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[move_group-1] [INFO] [1710148908.654354735] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148908.654469098] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148908.654912319] [move_group_interface]: Execute request success!
+[pick_hole0-1] [INFO] [1710148908.655926223] [move_group_demo]: Going to Barista
+[pick_hole0-1] [INFO] [1710148908.656086659] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710148908.656494293] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_hole0-1] [INFO] [1710148908.656629632] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710148908.656624910] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710148908.794313977] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710148908.795084958] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710148908.889649893] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_hole0-1] [INFO] [1710148908.890262531] [move_group_interface]: Planning request complete!
+[pick_hole0-1] [INFO] [1710148908.890820439] [move_group_interface]: time taken to generate plan: 0.0204916 seconds
+[move_group-1] [INFO] [1710148908.891310540] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148908.891450348] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148908.891438261] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148908.891469871] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148908.891499048] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148908.891564445] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148909.027739782] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148909.027845623] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148909.027881040] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148909.028086008] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148909.297194156] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710148909.297238070] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-1] [INFO] [1710148912.698039651] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[move_group-1] [INFO] [1710148913.106147688] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148913.106257375] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148913.106719723] [move_group_interface]: Execute request success!
+[pick_hole0-1] [INFO] [1710148913.106992076] [move_group_demo]: Going to Drop X
+[pick_hole0-1] [INFO] [1710148913.107195419] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710148913.107533306] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_hole0-1] [INFO] [1710148913.107670692] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710148913.107657932] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710148913.244007905] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710148913.244770660] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710148913.354776337] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_hole0-1] [INFO] [1710148913.355600735] [move_group_interface]: Planning request complete!
+[pick_hole0-1] [INFO] [1710148913.355639253] [move_group_interface]: time taken to generate plan: 0.0197391 seconds
+[move_group-1] [INFO] [1710148913.356258016] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148913.356406659] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148913.356412634] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148913.356444354] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148913.356469308] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148913.356568302] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148913.493621015] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148913.493685030] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148913.493709677] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148913.493882402] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148913.763796247] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710148913.763834349] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-1] [INFO] [1710148920.064323694] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[move_group-1] [INFO] [1710148920.472252716] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148920.472367988] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148920.472848978] [move_group_interface]: Execute request success!
+[move_group-1] [INFO] [1710148920.610237696] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710148920.610334495] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710148920.611897836] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 7 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710148920.612654707] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710148920.612775620] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148920.612804270] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[pick_hole0-1] [INFO] [1710148920.612797167] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148920.612830523] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148920.612910842] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148920.750073109] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148920.750138805] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148920.750169693] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148920.750347047] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148921.019514604] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710148921.019550219] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-1] [INFO] [1710148922.219810274] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[move_group-1] [INFO] [1710148922.627805982] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148922.627932242] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148922.628414255] [move_group_interface]: Execute request success!
+[pick_hole0-1] [INFO] [1710148922.628553347] [move_group_demo]: Release Object!
+[pick_hole0-1] [INFO] [1710148922.628695708] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710148922.629000962] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_hole0-1] [INFO] [1710148922.629161411] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710148922.629161873] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710148922.766098797] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710148922.766576423] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'gripper' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710148922.862737073] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_hole0-1] [INFO] [1710148922.863247317] [move_group_interface]: Planning request complete!
+[pick_hole0-1] [INFO] [1710148922.864176217] [move_group_interface]: time taken to generate plan: 0.0170867 seconds
+[move_group-1] [INFO] [1710148922.864485331] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148922.864647433] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148922.864626339] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148922.864651221] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148922.864675133] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148922.864729954] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148923.001989977] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148923.002067559] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148923.002100884] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [WARN] [1710148923.771392519] [moveit.simple_controller_manager.gripper_controller_handle]: waitForExecution timed out
+[move_group-1] [ERROR] [1710148923.771433757] [moveit_ros.trajectory_execution_manager]: Controller is taking too long to execute trajectory (the expected upper bound for the trajectory execution was 0.500000 seconds). Stopping trajectory.
+[move_group-1] [INFO] [1710148923.771492817] [moveit.simple_controller_manager.gripper_controller_handle]: Cancelling execution for gripper_controller
+[move_group-1] [INFO] [1710148924.043571823] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status TIMED_OUT ...
+[move_group-1] [INFO] [1710148924.043723090] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: TIMED_OUT
+[pick_hole0-1] [INFO] [1710148924.044302846] [move_group_interface]: Execute request aborted
+[pick_hole0-1] [ERROR] [1710148924.044766435] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[move_group-1] [INFO] [1710148924.182990972] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710148924.183085818] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710148924.184817535] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 7 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710148924.185564681] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710148924.185699132] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[pick_hole0-1] [INFO] [1710148924.185704035] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148924.185723641] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148924.185744458] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148924.185800928] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148924.321744609] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148924.321806293] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148924.321831805] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148924.322018022] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148924.590552424] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710148924.590599468] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-1] [INFO] [1710148925.841368447] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[move_group-1] [INFO] [1710148926.250255111] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148926.250366545] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148926.250821783] [move_group_interface]: Execute request success!
+[pick_hole0-1] [INFO] [1710148926.251051686] [move_group_demo]: Going to Barista
+[pick_hole0-1] [INFO] [1710148926.251254725] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710148926.251579359] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_hole0-1] [INFO] [1710148926.251735771] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710148926.251757916] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710148926.388006601] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710148926.388598273] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710148926.487469379] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_hole0-1] [INFO] [1710148926.488317581] [move_group_interface]: Planning request complete!
+[pick_hole0-1] [INFO] [1710148926.489139502] [move_group_interface]: time taken to generate plan: 0.0218985 seconds
+[move_group-1] [INFO] [1710148926.489899833] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_hole0-1] [INFO] [1710148926.490058509] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710148926.490053918] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710148926.490082706] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148926.490123981] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148926.490203987] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-1] [INFO] [1710148926.625630009] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710148926.625684238] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148926.625713869] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710148926.625914063] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710148926.895638698] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710148926.895671767] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-1] [INFO] [1710148933.196439179] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[move_group-1] [INFO] [1710148933.608326155] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710148933.608487235] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_hole0-1] [INFO] [1710148933.609057665] [move_group_interface]: Execute request success!
+[pick_hole0-1] [INFO] [1710148933.610058503] [move_group_demo]: Shutting down...
+[INFO] [pick_hole0-1]: process has finished cleanly [pid 8880]
+[8mha:////4G0Ca1T5CaOBeIQalGS4O++CWK7++KZZB3RD5coAG3XwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4EL9xwmhMqxFomOwQCMYe6HlUSpG6ui3GtgQcnuUhuhBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4ElMcyxrrWP6gPrrUL9a+M7pLWF4ntHHFGTq25sEXGxwAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BhStF0r0AAAA=[0m[Pipeline] }
+[8mha:////4J+5tN/VTDs97fJjp5R1LbN4TY3tPcnAT/ogIlZ3mHABAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+Wl0FxvQAAAA==[0m[Pipeline] // node
+[8mha:////4IRxHnBgMPi7Y0jsqFJ+cKAZh2jZAWUNCeN3QVrApB1UAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94J8Xwqy8gPQ3eZBvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

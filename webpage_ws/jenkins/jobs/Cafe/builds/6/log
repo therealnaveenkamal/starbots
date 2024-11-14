@@ -1,0 +1,420 @@
+Started by user [8mha:////4IeQOj8VfLk+SetOM1Ht+yKctev3RYQeosEc2uvalfhHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4AvW4qJFGqPY9rEFn5k8JQnSw3bpeiBwq5fUDWHGgeUJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Jx2pWQ3F7eNYSJ06BiEt6xpyoSCfRjchXhnQ7dfarT2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GIyBZLbqfGryQmXOCRVHQQgPp8CZf6jTKB12fGvWpH3AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /home/user/webpage_ws/jenkins/workspace/Cafe
+[8mha:////4CTLeS/a7oMJV4uB+axu9N9jGs1uoJSk2VC8W/y69zGOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GS/hk4zfyQJlDQp4nyUTTQH2KoGjeG+TeOQNykjlraKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CH9sEJZGq1Wbgpt+nkZyLXDKjgjh2QzoeOEpIF+eLWaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Hello)
+[8mha:////4KVeJ5b61QWMRpDiz5WivxFj2auSe7d/QL1ayGMLuMPXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python3 /home/user/ros2_ws/src/arm_sim.launch.py
+python3: can't open file '/home/user/webpage_ws/jenkins/workspace/Cafe/~/ros2_ws/src/cone_detection/src/cone_detection/cone_detection_node.py': [Errno 2] No such file or directory
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-03-05-13-39-33-737637-1_xterm-16067
+[INFO] [launch]: Default logging verbosity is set to INFO
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+[INFO] [move_group-1]: process started with pid [16069]
+[move_group-1] [INFO] [1709645975.025420666] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0927452 seconds
+[move_group-1] [INFO] [1709645975.025510832] [moveit_robot_model.robot_model]: Loading robot model 'name'...
+[move_group-1] [INFO] [1709645975.615106936] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-1] [INFO] [1709645975.615315197] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-1] [INFO] [1709645975.616475157] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-1] [INFO] [1709645975.617309275] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-1] [INFO] [1709645975.617339577] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-1] [INFO] [1709645975.617997557] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-1] [INFO] [1709645975.618021813] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-1] [INFO] [1709645975.618980861] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-1] [INFO] [1709645975.619891145] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-1] [WARN] [1709645975.623005803] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-1] [ERROR] [1709645975.623049424] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-1] [ERROR] [1709645975.642851555] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.642904155] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.642914474] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.662377254] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.662408093] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.662416795] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.871641344] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.871691761] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.871700864] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645975.871777858] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[move_group-1] [ERROR] [1709645975.882114719] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.882156402] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.882165509] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645975.888393998] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
+[move_group-1] [INFO] [1709645975.896976907] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1709645975.897013451] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1709645975.897023341] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1709645975.897069104] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1709645975.897124794] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1709645975.897134924] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1709645975.897156416] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1709645975.897168610] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[move_group-1] [INFO] [1709645975.897187525] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1709645975.897209205] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1709645975.897221280] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1709645975.897228182] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1709645975.897234998] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1709645975.897243017] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1709645975.897250605] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [ERROR] [1709645975.899735500] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.899760175] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.899769199] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645975.901489470] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[move_group-1] [ERROR] [1709645975.917493803] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.917528425] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.917537049] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645975.928939768] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-1] [ERROR] [1709645975.944862739] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.944896050] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.944904779] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645975.961843296] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-1] [INFO] [1709645975.961875807] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[move_group-1] [INFO] [1709645975.964364258] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[move_group-1] [INFO] [1709645975.964397872] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[move_group-1] [ERROR] [1709645975.964462667] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.964488880] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.964497271] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645975.965644358] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[move_group-1] [INFO] [1709645975.965669795] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[move_group-1] [INFO] [1709645975.967131485] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[move_group-1] [INFO] [1709645975.967195071] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[move_group-1] [INFO] [1709645975.968713187] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-1] [ERROR] [1709645975.984096866] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.984121347] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.984129088] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.996095717] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.996123091] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645975.996131070] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645975.997688931] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-1] [INFO] [1709645976.007921648] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1709645976.007953615] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1709645976.007962842] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1709645976.008003257] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1709645976.008032270] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1709645976.008042445] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1709645976.008065111] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1709645976.008076592] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-1] [INFO] [1709645976.008086755] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1709645976.008108803] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1709645976.008118068] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1709645976.008125501] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1709645976.008133177] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1709645976.008139911] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1709645976.008147160] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [ERROR] [1709645976.010720955] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.010745641] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.010754748] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.023876662] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.023924613] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.023934658] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.039785136] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.039819444] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.039828524] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.077562571] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.078307554] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.078715492] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645976.090514452] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1709645976.090601210] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
+[move_group-1] [INFO] [1709645976.093289782] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for gripper_controller
+[move_group-1] [INFO] [1709645976.093441524] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1709645976.093490881] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1709645976.093953328] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-1] [INFO] [1709645976.093977629] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-1] [ERROR] [1709645976.097127241] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.097150219] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.097158716] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.115900413] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.115935805] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.115944290] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645976.119141495] [move_group.move_group]: 
+[move_group-1] 
+[move_group-1] ********************************************************
+[move_group-1] * MoveGroup using: 
+[move_group-1] *     - ApplyPlanningSceneService
+[move_group-1] *     - ClearOctomapService
+[move_group-1] *     - CartesianPathService
+[move_group-1] *     - ExecuteTrajectoryAction
+[move_group-1] *     - GetPlanningSceneService
+[move_group-1] *     - KinematicsService
+[move_group-1] *     - MoveAction
+[move_group-1] *     - MotionPlanService
+[move_group-1] *     - QueryPlannersService
+[move_group-1] *     - StateValidationService
+[move_group-1] ********************************************************
+[move_group-1] 
+[move_group-1] [INFO] [1709645976.119208467] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-1] [INFO] [1709645976.119223545] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-1] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-1] [0m[92m
+[move_group-1] You can start planning now!
+[move_group-1] 
+[move_group-1] [ERROR] [1709645976.142156907] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.142194077] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.142201764] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.158141656] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.158197481] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.158231825] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.178203376] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.178241884] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.178251390] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.189324575] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.189363506] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.189373602] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.209539689] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.209573350] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.209582255] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.240935161] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.240981833] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.240991061] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.256739438] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.256774746] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.256781302] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.275259239] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.275309395] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.275317630] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.289722790] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.289756441] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.289764214] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.303496223] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.303536129] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.303545803] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.314886124] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.314923452] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.314933097] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.326063348] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.326102521] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.326137696] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.344903299] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.344939510] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.344946028] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.355773390] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.355807801] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.355815234] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.369512695] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.369553221] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.369562588] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.385708867] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.385746751] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.385756020] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.400284912] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.400318889] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.400327866] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.421663333] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.421701431] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.421709519] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.441082016] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.441119379] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.441127531] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.462215328] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.462256502] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.462267475] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.473563856] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.473595820] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.473603564] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.484613712] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.484642231] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.484649946] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.497201011] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.497229950] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.497237763] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.518155043] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.518200167] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.518209627] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.530985773] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.531025935] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.531035540] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.554084601] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.554132159] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.554141880] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.559662042] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.559707275] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.559716049] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.577612002] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.577658711] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.577668103] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.603331223] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.603367091] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.603373374] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.615279951] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.615315289] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.615324152] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.631393721] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.631428207] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.631436017] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.646765465] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.646805548] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.646815920] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.667267309] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.667308728] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.667317415] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.684359388] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.684402868] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.684412786] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.701858064] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.701894018] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.701903249] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.720422302] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.720462432] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.720472501] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.734552569] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.734584452] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.734592335] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.753688330] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.753729571] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.753739641] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.764619921] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.764662221] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.764672022] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.800954698] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.800996065] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.801003606] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.825706722] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.825746178] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.825754072] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.841146683] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.841185960] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.841194228] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.878218929] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.878258664] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.878268562] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.879575850] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.879609542] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.879617298] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.894722612] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.894755203] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.894764472] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.914719712] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.914754727] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.914763877] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.944032308] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.944071010] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.944080388] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.962026694] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.962062357] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.962072194] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.976461117] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.976501966] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.976511674] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.993179883] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.993216025] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645976.993225402] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.010198437] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.010234513] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.010244884] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.021392739] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.021432885] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.021442463] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.043716993] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.043892877] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.043905433] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.063587626] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.063626072] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.063634547] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.078601036] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.078644562] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.078652358] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.100921886] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.100963869] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.100975367] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.115570673] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.115606885] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.115615045] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.134201454] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.134244746] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.134253977] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.157104530] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.157141718] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.157148838] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.169597714] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.169633865] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.169645463] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.181593362] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.181624991] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.181634241] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.192565191] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.192593139] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.192599332] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.206766291] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.206838836] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.206849345] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.222088849] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.222116389] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.222124487] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.240156317] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.240186732] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.240195215] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.255145602] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.255189194] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.255197834] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.269427101] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.269463184] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.269471830] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.286192322] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+Sending interrupt signal to process
+Aborted by [8mha:////4IeQOj8VfLk+SetOM1Ht+yKctev3RYQeosEc2uvalfhHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[move_group-1] [ERROR] [1709645977.286227204] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.286236828] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.302265684] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.302308372] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.302318382] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.313836472] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.313877970] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.313887491] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.340555375] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.340599947] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.340609813] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.357722213] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.357764539] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.357774170] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.378928132] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.379005626] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.379015452] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.401249764] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.401288911] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.401298197] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.423739631] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.423787129] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.423797097] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.439139468] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.439190965] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.439201414] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.456845972] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.456885031] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.456893913] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.473359313] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.473398881] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.473408669] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.488639580] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.488672262] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.488680754] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.504675813] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.504718795] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.504728666] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.520643574] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_left_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.520685515] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_finger_right_joint_mimic' not found in model 'name'
+[move_group-1] [ERROR] [1709645977.520695252] [moveit_robot_model.robot_model]: Joint 'rg2_gripper_thumb_right_joint_mimic' not found in model 'name'
+[move_group-1] [INFO] [1709645977.527438539] [rclcpp]: signal_handler(signum=15)
+[move_group-1] [INFO] [1709645977.546895185] [moveit.ros_planning_interface.moveit_cpp]: Deleting MoveItCpp
+[move_group-1] [INFO] [1709645977.779084621] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[move_group-1] [INFO] [1709645977.780037178] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping world geometry monitor
+[move_group-1] [INFO] [1709645977.780552452] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[move_group-1] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[move_group-1]          at line 127 in ./src/class_loader.cpp
+[INFO] [move_group-1]: process has finished cleanly [pid 16069]
+[move_group-1] [0m
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-03-05-13-39-43-747579-1_xterm-16442
+[INFO] [launch]: Default logging verbosity is set to INFO
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+[8mha:////4G0Ca1T5CaOBeIQalGS4O++CWK7++KZZB3RD5coAG3XwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4EL9xwmhMqxFomOwQCMYe6HlUSpG6ui3GtgQcnuUhuhBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4ElMcyxrrWP6gPrrUL9a+M7pLWF4ntHHFGTq25sEXGxwAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BhStF0r0AAAA=[0m[Pipeline] }
+[8mha:////4J+5tN/VTDs97fJjp5R1LbN4TY3tPcnAT/ogIlZ3mHABAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+Wl0FxvQAAAA==[0m[Pipeline] // node
+[8mha:////4IRxHnBgMPi7Y0jsqFJ+cKAZh2jZAWUNCeN3QVrApB1UAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94J8Xwqy8gPQ3eZBvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: ABORTED

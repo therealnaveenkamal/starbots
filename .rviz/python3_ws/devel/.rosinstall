@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/user/.rviz/python3_ws/devel/setup.sh

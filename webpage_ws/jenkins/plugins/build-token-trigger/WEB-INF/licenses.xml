@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='build-token-trigger' version='1.0.0'><l:dependency name='Build Token Trigger Plugin' groupId='org.jenkins-ci.plugins' artifactId='build-token-trigger' version='1.0.0' url=''><l:description>This plugin provides a pipeline step to trigger a build using the Build Authorization Token Root plugin.</l:description></l:dependency></l:dependencies>

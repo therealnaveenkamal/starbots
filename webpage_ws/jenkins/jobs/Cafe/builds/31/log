@@ -1,0 +1,1374 @@
+Started by remote host 172.19.0.1
+[8mha:////4AvW4qJFGqPY9rEFn5k8JQnSw3bpeiBwq5fUDWHGgeUJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Jx2pWQ3F7eNYSJ06BiEt6xpyoSCfRjchXhnQ7dfarT2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4GIyBZLbqfGryQmXOCRVHQQgPp8CZf6jTKB12fGvWpH3AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /home/user/webpage_ws/jenkins/workspace/Cafe
+[8mha:////4CTLeS/a7oMJV4uB+axu9N9jGs1uoJSk2VC8W/y69zGOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GS/hk4zfyQJlDQp4nyUTTQH2KoGjeG+TeOQNykjlraKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CH9sEJZGq1Wbgpt+nkZyLXDKjgjh2QzoeOEpIF+eLWaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Hello)
+[8mha:////4KVeJ5b61QWMRpDiz5WivxFj2auSe7d/QL1ayGMLuMPXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ python3 /home/user/ros2_ws/src/arm_real.launch.py
+2024-03-10 11:15:39.193947: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-10 11:15:39.197858: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-10 11:15:39.250016: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-10 11:15:40.209078: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+1710069340.863212 [0]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///var/lib/theconstruct.rrl/cyclonedds.xml line 5)
+1710069340.863941 [0]    python3: add_peer_addresses: 1_xterm: unknown address
+1710069340.863941 [0]    python3: add_peer_addresses: 1_xterm: unknown address
+/home/user/.local/lib/python3.10/site-packages/keras/src/layers/convolutional/base_conv.py:99: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:absl:Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+Shape of the image: (240, 320)
+Depth Image dimension (Row,Col): 240 x 320
+Color Image dimension (Row,Col): 180 x 320
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 184ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 185ms/step
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 29ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 29ms/step
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-03-10-11-15-48-616611-1_xterm-28048
+[INFO] [launch]: Default logging verbosity is set to INFO
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step
+[INFO] [move_group-1]: process started with pid [28075]
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[move_group-1] 1710069352.627398 [0] move_group: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///var/lib/theconstruct.rrl/cyclonedds.xml line 5)
+[move_group-1] 1710069352.628247 [0] move_group: add_peer_addresses: 1_xterm: unknown address
+[move_group-1] 1710069352.628247 [0] move_group: add_peer_addresses: 1_xterm: unknown address
+[move_group-1] [INFO] [1710069353.244453446] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.602924 seconds
+[move_group-1] [INFO] [1710069353.244549555] [moveit_robot_model.robot_model]: Loading robot model 'name'...
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-03-10-11-15-53-656171-1_xterm-28263
+[INFO] [launch]: Default logging verbosity is set to INFO
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+[INFO] [rviz2-1]: process started with pid [28278]
+[move_group-1] [INFO] [1710069354.500151615] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-1] [INFO] [1710069354.500378709] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-1] [INFO] [1710069354.501157872] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-1] [INFO] [1710069354.502080356] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-1] [INFO] [1710069354.502120812] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-1] [INFO] [1710069354.503694428] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-1] [INFO] [1710069354.503725187] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-1] [INFO] [1710069354.504350658] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-1] [INFO] [1710069354.505038585] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-1] [WARN] [1710069354.508934804] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-1] [ERROR] [1710069354.508974551] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-1] [INFO] [1710069354.672727076] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[move_group-1] [INFO] [1710069354.785128808] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
+[move_group-1] [INFO] [1710069354.798358536] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710069354.798392652] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710069354.798399583] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1710069354.798435078] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1710069354.798452142] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1710069354.798459742] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710069354.798473080] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710069354.798480154] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[move_group-1] [INFO] [1710069354.798495409] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1710069354.798508661] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1710069354.798516169] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1710069354.798521423] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1710069354.798526387] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1710069354.798531126] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1710069354.798536418] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [INFO] [1710069354.889543323] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[move_group-1] [INFO] [1710069354.901100970] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-1] [INFO] [1710069354.915638400] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-1] [INFO] [1710069354.915668491] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[move_group-1] [INFO] [1710069355.012007379] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[move_group-1] [INFO] [1710069355.012049980] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[move_group-1] [INFO] [1710069355.013653483] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[move_group-1] [INFO] [1710069355.013683786] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[move_group-1] [INFO] [1710069355.015127940] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[move_group-1] [INFO] [1710069355.015171460] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[move_group-1] [INFO] [1710069355.017065861] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-1] [INFO] [1710069355.920877303] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-1] [INFO] [1710069355.929638746] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710069355.929680596] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1710069355.929689764] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1710069355.929728709] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1710069355.929755618] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1710069355.929765069] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710069355.929787609] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1710069355.929798139] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-1] [INFO] [1710069355.929807678] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1710069355.929829144] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1710069355.929837973] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1710069355.929844398] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1710069355.929851884] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1710069355.929859030] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1710069355.929866492] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [INFO] [1710069356.214862493] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for scaled_joint_trajectory_controller
+[move_group-1] [INFO] [1710069356.215012041] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
+[move_group-1] [INFO] [1710069356.217306038] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for gripper_controller
+[move_group-1] [INFO] [1710069356.217531187] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069356.217604540] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069356.217999530] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-1] [INFO] [1710069356.218022136] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-1] [INFO] [1710069356.425674393] [move_group.move_group]: 
+[move_group-1] 
+[move_group-1] ********************************************************
+[move_group-1] * MoveGroup using: 
+[move_group-1] *     - ApplyPlanningSceneService
+[move_group-1] *     - ClearOctomapService
+[move_group-1] *     - CartesianPathService
+[move_group-1] *     - ExecuteTrajectoryAction
+[move_group-1] *     - GetPlanningSceneService
+[move_group-1] *     - KinematicsService
+[move_group-1] *     - MoveAction
+[move_group-1] *     - MotionPlanService
+[move_group-1] *     - QueryPlannersService
+[move_group-1] *     - StateValidationService
+[move_group-1] ********************************************************
+[move_group-1] 
+[move_group-1] [INFO] [1710069356.425742377] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-1] [INFO] [1710069356.425759312] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-1] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-1] [0m[92m
+[move_group-1] You can start planning now!
+[move_group-1] 
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+[rviz2-1] 1710069359.693806 [0]      rviz2: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///var/lib/theconstruct.rrl/cyclonedds.xml line 5)
+[rviz2-1] 1710069359.695010 [0]      rviz2: add_peer_addresses: 1_xterm: unknown address
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [INFO] [1710069361.567815826] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1710069361.567929114] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-1] [INFO] [1710069361.787843713] [rviz2]: Stereo is NOT SUPPORTED
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 29ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 29ms/step
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 28ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 28ms/step
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-03-10-11-16-03-626796-1_xterm-28565
+[INFO] [launch]: Default logging verbosity is set to INFO
+[rviz2-1] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+[rviz2-1]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+[INFO] [pick_and_place_real-1]: process started with pid [28733]
+[pick_and_place_real-1] 1710069364.739119 [0] pick_and_p: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///var/lib/theconstruct.rrl/cyclonedds.xml line 5)
+[pick_and_place_real-1] 1710069364.740220 [0] pick_and_p: add_peer_addresses: 1_xterm: unknown address
+[pick_and_place_real-1] 1710069364.740220 [0] pick_and_p: add_peer_addresses: 1_xterm: unknown address
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 29ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 29ms/step
+[pick_and_place_real-1] [INFO] [1710069364.851899499] [move_group_demo]: Pose: 0.080000, 0.417000
+[pick_and_place_real-1] [INFO] [1710069364.910768958] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0585304 seconds
+[pick_and_place_real-1] [INFO] [1710069364.910813875] [moveit_robot_model.robot_model]: Loading robot model 'name'...
+[pick_and_place_real-1] [INFO] [1710069365.046639154] [move_group_interface]: Ready to take commands for planning group ur_manipulator.
+[pick_and_place_real-1] [INFO] [1710069365.059763106] [move_group_interface]: Ready to take commands for planning group gripper.
+[pick_and_place_real-1] [INFO] [1710069365.061040271] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+211 122
+Distance value2: 0.353 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 28ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 28ms/step
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [ERROR] [1710069366.948959975] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[rviz2-1] [INFO] [1710069367.123435308] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 28ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 28ms/step
+[rviz2-1] Error:   Semantic description is not specified for the same robot as the URDF
+[rviz2-1]          at line 664 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] Warning: Link 'wrist_rgbd_camera_link' is not known to URDF. Cannot disable/enable collisons.
+[rviz2-1]          at line 577 in ./src/model.cpp
+[rviz2-1] [INFO] [1710069369.970180081] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 1.85565 seconds
+[rviz2-1] [INFO] [1710069369.970260392] [moveit_robot_model.robot_model]: Loading robot model 'ur3e'...
+[rviz2-1] [INFO] [1710069370.508660586] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[rviz2-1] [INFO] [1710069370.511177890] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[pick_and_place_real-1] [INFO] [1710069370.778792270] [move_group_demo]: Going Home
+[pick_and_place_real-1] [INFO] [1710069370.779009877] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710069370.779397930] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_and_place_real-1] [INFO] [1710069370.779631672] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710069370.779639077] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710069370.918567482] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[rviz2-1] [WARN] [1710069370.930016213] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069370.930309045] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [INFO] [1710069370.939716050] [interactive_marker_display_94897500208912]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[rviz2-1] [INFO] [1710069370.947189402] [moveit_ros_robot_interaction.robot_interaction]: No active joints or end effectors found for group 'gripper'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[rviz2-1] [INFO] [1710069370.947966006] [moveit_ros_robot_interaction.robot_interaction]: No active joints or end effectors found for group 'gripper'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[rviz2-1] [INFO] [1710069371.208272607] [interactive_marker_display_94897500208912]: Sending request for interactive markers
+[move_group-1] [INFO] [1710069371.209963741] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[rviz2-1] [INFO] [1710069371.267628598] [interactive_marker_display_94897500208912]: Service response received for initialization
+[move_group-1] [WARN] [1710069371.521564466] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[move_group-1] [INFO] [1710069371.534384418] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[rviz2-1] [WARN] [1710069371.534968036] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069371.535915085] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069371.536179290] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [INFO] [1710069371.536763690] [moveit_ros_visualization.motion_planning_frame]: group gripper
+[rviz2-1] [INFO] [1710069371.536784430] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'gripper' in namespace ''
+[pick_and_place_real-1] [INFO] [1710069371.537928576] [move_group_interface]: Planning request complete!
+[pick_and_place_real-1] [INFO] [1710069371.542044049] [move_group_interface]: time taken to generate plan: 0.166208 seconds
+[move_group-1] [INFO] [1710069371.544026829] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069371.544332590] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069371.544210579] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069371.544258981] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069371.544288376] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069371.544966133] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [INFO] [1710069371.556193426] [move_group_interface]: Ready to take commands for planning group gripper.
+[rviz2-1] [WARN] [1710069371.558237879] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[move_group-1] [INFO] [1710069371.677019418] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069371.677097318] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069371.677122267] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069371.677362198] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069371.785277634] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069371.938515698] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069371.938565918] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069372.035336258] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069372.285477577] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069372.535966766] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069372.785946561] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069373.037230589] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069373.286165945] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069373.536224970] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069373.786295259] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.353 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[rviz2-1] [WARN] [1710069374.036564627] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069374.286601517] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069374.536606351] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069374.786636746] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069375.036742581] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069375.286934618] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 43ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 44ms/step
+[rviz2-1] [WARN] [1710069375.537008367] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069375.787082346] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069376.037093457] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069376.287241309] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069376.537318659] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069376.787444312] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069377.037451789] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[rviz2-1] [WARN] [1710069377.287531904] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069377.537557329] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069377.787732373] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069378.037777470] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069378.287828964] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069378.537971782] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069378.788141154] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069379.038144714] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+[rviz2-1] [WARN] [1710069379.288216983] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069379.538300919] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069379.788451886] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[rviz2-1] [WARN] [1710069380.038466963] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069380.237422154] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[rviz2-1] [WARN] [1710069380.288591154] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069380.538630093] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069380.632622143] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069380.632787739] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[rviz2-1] [INFO] [1710069380.633858784] [moveit_ros_visualization.motion_planning_frame]: group gripper
+[pick_and_place_real-1] [INFO] [1710069380.633986112] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069380.634225845] [move_group_demo]: Towards z
+[move_group-1] [INFO] [1710069380.766472234] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069380.766652868] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710069380.767519119] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 2 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069380.768374714] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069380.768536283] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069380.768521337] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069380.768547656] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069380.768568607] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069380.768637078] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069380.788862123] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069380.852045537] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069380.900656661] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069380.900727557] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069380.900753029] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069380.900923232] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069381.040494989] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069381.149822128] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069381.149865260] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069381.289091403] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069381.450993901] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[rviz2-1] [WARN] [1710069381.539300721] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069381.789263730] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069381.869433443] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069381.869529945] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069381.869994111] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069381.870140703] [move_group_demo]: Towards Y
+[move_group-1] [INFO] [1710069382.003111486] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069382.003253775] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 20 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710069382.015790333] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 40 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069382.016816635] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069382.016969674] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069382.016959471] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069382.016992297] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069382.017019105] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069382.017099914] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069382.039465460] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069382.052761493] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069382.149139468] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069382.149204248] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069382.149228629] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069382.149400757] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069382.289422809] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069382.399416383] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069382.399488192] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069382.539493151] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 39ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 39ms/step
+[rviz2-1] [WARN] [1710069382.789572548] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069383.039686093] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069383.289766714] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069383.539932948] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069383.789948759] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069384.040106458] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069384.290180999] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069384.540304481] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069384.611439349] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[rviz2-1] [WARN] [1710069384.790296071] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069385.006899547] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069385.007013165] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069385.007477899] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069385.008058843] [move_group_demo]: Open Gripper!
+[pick_and_place_real-1] [INFO] [1710069385.008284703] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710069385.008644323] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_and_place_real-1] [INFO] [1710069385.008851719] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710069385.008837605] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[rviz2-1] [WARN] [1710069385.040374663] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069385.140808178] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710069385.141458143] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'gripper' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710069385.236169625] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[pick_and_place_real-1] [INFO] [1710069385.236704023] [move_group_interface]: Planning request complete!
+[pick_and_place_real-1] [INFO] [1710069385.237079166] [move_group_interface]: time taken to generate plan: 0.0152208 seconds
+[move_group-1] [INFO] [1710069385.237450003] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069385.237724643] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069385.237640554] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069385.237674767] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069385.237698476] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069385.237749552] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069385.290531061] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069385.304423917] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069385.368787381] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069385.368850561] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069385.368875773] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[rviz2-1] [WARN] [1710069385.540545569] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069385.790711341] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069386.040739288] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [WARN] [1710069386.121151579] [moveit.simple_controller_manager.gripper_controller_handle]: waitForExecution timed out
+[move_group-1] [ERROR] [1710069386.121198528] [moveit_ros.trajectory_execution_manager]: Controller is taking too long to execute trajectory (the expected upper bound for the trajectory execution was 0.500000 seconds). Stopping trajectory.
+[move_group-1] [INFO] [1710069386.121225924] [moveit.simple_controller_manager.gripper_controller_handle]: Cancelling execution for gripper_controller
+[rviz2-1] [WARN] [1710069386.290824997] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069386.372747275] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status TIMED_OUT ...
+[move_group-1] [INFO] [1710069386.372842211] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: TIMED_OUT
+[pick_and_place_real-1] [INFO] [1710069386.373386463] [move_group_interface]: Execute request aborted
+[pick_and_place_real-1] [ERROR] [1710069386.373839645] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[pick_and_place_real-1] [INFO] [1710069386.373880662] [move_group_demo]: Towards X
+[pick_and_place_real-1] [INFO] [1710069386.504726309] [move_group_demo]: X Pose: 0.159011
+[pick_and_place_real-1] [INFO] [1710069386.504763429] [move_group_demo]: X Pose: 0.149011
+[pick_and_place_real-1] [INFO] [1710069386.504770302] [move_group_demo]: X Pose: 0.139011
+[move_group-1] [INFO] [1710069386.505038892] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069386.505159819] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 9 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[pick_and_place_real-1] [INFO] [1710069386.504775979] [move_group_demo]: X Pose: 0.129011
+[pick_and_place_real-1] [INFO] [1710069386.504784973] [move_group_demo]: X Pose: 0.119011
+[pick_and_place_real-1] [INFO] [1710069386.504792493] [move_group_demo]: X Pose: 0.109011
+[pick_and_place_real-1] [INFO] [1710069386.504798915] [move_group_demo]: X Pose: 0.099011
+[pick_and_place_real-1] [INFO] [1710069386.504805425] [move_group_demo]: X Pose: 0.089011
+[move_group-1] [INFO] [1710069386.508656226] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 10 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069386.511554707] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710069386.511722903] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069386.511758719] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[pick_and_place_real-1] [INFO] [1710069386.511820836] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069386.511811265] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069386.511898262] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 38ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 38ms/step
+[rviz2-1] [WARN] [1710069386.541214725] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069386.577852862] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069386.642619182] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069386.642681580] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069386.642707660] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069386.642882283] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069386.791077789] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069386.892506440] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069386.892545497] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069387.041057869] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069387.291211133] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069387.541380817] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069387.791490294] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069387.993048387] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+211 122
+Distance value2: 0.353 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 41ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 41ms/step
+[rviz2-1] [WARN] [1710069388.041603481] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069388.291556355] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069388.390789156] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069388.390922240] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069388.391728807] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069388.392308622] [move_group_demo]: Approach to object!
+[move_group-1] [INFO] [1710069388.524782774] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069388.524898595] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710069388.526944966] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 7 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069388.528021589] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710069388.528226178] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069388.528260327] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069388.528287510] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[pick_and_place_real-1] [INFO] [1710069388.528236729] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069388.528376996] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069388.541657763] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069388.590436179] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069388.661209860] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069388.661279192] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069388.661310301] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069388.661520802] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069388.791984865] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069388.912022125] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069388.912066395] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069389.041952558] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069389.291998011] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069389.542096817] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069389.792242731] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069390.042306919] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069390.120892151] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 45ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 45ms/step
+[rviz2-1] [WARN] [1710069390.292286645] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069390.517955409] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069390.518059155] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069390.518582366] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069390.519235122] [move_group_demo]: Close Gripper
+[pick_and_place_real-1] [INFO] [1710069390.519418926] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710069390.519706495] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_and_place_real-1] [INFO] [1710069390.519935782] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710069390.519876622] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[rviz2-1] [WARN] [1710069390.542425819] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069390.650418005] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710069390.650975010] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'gripper' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[move_group-1] [INFO] [1710069391.726351651] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[rviz2-1] [WARN] [1710069391.726926525] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069391.727102990] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069391.738028604] [move_group_interface]: Planning request complete!
+[pick_and_place_real-1] [INFO] [1710069391.738353462] [move_group_interface]: time taken to generate plan: 0.0481614 seconds
+[move_group-1] [INFO] [1710069391.745217248] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069391.745384543] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069391.745384223] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069391.745420735] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069391.745446064] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069391.745959626] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069391.768035426] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069391.876947652] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069391.877017163] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069391.877042331] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[rviz2-1] [WARN] [1710069391.977132800] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069392.227310954] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069392.477330573] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 39ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 39ms/step
+[rviz2-1] [WARN] [1710069392.727394277] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069392.977589713] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069393.227621842] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069393.477675954] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069393.727828664] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069393.977845116] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069394.227915507] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069394.477982130] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069394.728082687] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069394.978147039] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069395.228227070] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.354 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+[rviz2-1] [WARN] [1710069395.478371708] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069395.728456997] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069395.978638131] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069396.228620135] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069396.478694263] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069396.728857942] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069396.978851712] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069397.229037816] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069397.479045101] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069397.572699117] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069397.573055351] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069397.573818736] [move_group_interface]: Execute request success!
+[rviz2-1] [WARN] [1710069397.729257159] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069397.979266612] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069398.229426506] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.353 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069398.479428605] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069398.729518329] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069398.979572606] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069399.229746190] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069399.481867028] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069399.731873607] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069399.981974226] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.353 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069400.232033149] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069400.482117553] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069400.732296017] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069400.982432961] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069401.232447995] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069401.482552779] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.353 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069401.732542907] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069401.982664896] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069402.232761355] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069402.482799712] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.353 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[pick_and_place_real-1] [INFO] [1710069402.575685988] [move_group_demo]: Retreat from object!
+[move_group-1] [INFO] [1710069402.575965678] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069402.576088211] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710069402.579634838] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 7 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069402.580634009] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069402.580802282] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069402.580822705] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069402.580854286] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069402.580878093] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069402.580954880] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069402.660684963] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069402.712156095] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069402.712231265] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069402.712263392] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069402.712480562] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069402.733151684] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069402.983003468] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069403.233102379] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069403.312083175] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069403.312121195] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069403.483827271] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.352 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069403.734383060] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069403.983447859] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069404.162899253] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[rviz2-1] [WARN] [1710069404.233451242] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069404.483684059] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069404.827818731] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069404.957935795] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069404.958082483] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069404.958584707] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069404.959221377] [move_group_demo]: Rotating Arm
+[rviz2-1] [WARN] [1710069404.983735348] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069405.091165413] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710069405.091551315] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_and_place_real-1] [INFO] [1710069405.091872838] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710069405.091755915] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1710069405.224086648] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710069405.224950904] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+211 122
+Distance value2: 0.355 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 44ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 44ms/step
+[move_group-1] [INFO] [1710069405.683032301] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[rviz2-1] [WARN] [1710069405.683501678] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069405.683686668] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069405.684197981] [move_group_interface]: Planning request complete!
+[pick_and_place_real-1] [INFO] [1710069405.685018266] [move_group_interface]: time taken to generate plan: 0.069894 seconds
+[move_group-1] [INFO] [1710069405.685637757] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710069405.685859680] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069405.685894488] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069405.685922402] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069405.686051873] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[pick_and_place_real-1] [INFO] [1710069405.685814125] [move_group_interface]: Execute request accepted
+[rviz2-1] [WARN] [1710069405.730066760] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069405.822507415] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069405.822576817] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069405.822602353] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069405.822783215] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069405.933784585] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069406.074572258] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069406.074610305] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069406.183978723] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069406.433987394] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step
+[rviz2-1] [WARN] [1710069406.684084323] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069406.934327976] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069407.184234462] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.0 m
+CUP NOT DETECTED
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[rviz2-1] [WARN] [1710069407.434495539] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069407.684440678] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069407.934585766] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069408.184572903] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069408.434696993] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069408.684744570] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069408.934856418] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069409.185044375] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069409.435130151] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069409.685249887] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069409.935337785] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069410.185436925] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.534 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [WARN] [1710069410.435445551] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069410.685572132] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069410.935651207] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069411.185685956] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069411.435775260] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069411.685823204] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069411.935923468] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069412.186068720] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 39ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 40ms/step
+[move_group-1] [INFO] [1710069412.332133683] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[rviz2-1] [WARN] [1710069412.436183716] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069412.686251904] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069412.728174977] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069412.728284042] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069412.728830657] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069412.729697656] [move_group_demo]: Going to Barista
+[pick_and_place_real-1] [INFO] [1710069412.729880214] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710069412.730138101] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1710069412.730294232] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[pick_and_place_real-1] [INFO] [1710069412.730328562] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710069412.862972177] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710069412.864862014] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710069413.333415540] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[rviz2-1] [WARN] [1710069413.333939156] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069413.334349044] [move_group_interface]: Planning request complete!
+[rviz2-1] [WARN] [1710069413.334133223] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069413.334443597] [move_group_interface]: time taken to generate plan: 0.0920743 seconds
+[move_group-1] [INFO] [1710069413.335041534] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069413.335307428] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069413.335191301] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069413.335230975] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069413.335256490] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069413.335336188] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069413.354073296] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069413.466257165] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069413.466331906] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069413.466376506] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069413.466581912] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069413.584230638] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069413.717407077] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069413.717451133] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069413.834370582] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069414.084429510] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069414.334545193] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069414.584619854] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069414.834745635] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069415.084861090] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069415.334837205] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069415.585013642] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069415.835057380] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.535 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069416.085099679] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069416.335245561] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069416.585277362] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069416.835439250] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069417.085426794] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069417.318844330] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[rviz2-1] [WARN] [1710069417.335663455] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.538 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step
+[rviz2-1] [WARN] [1710069417.585589604] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069417.715288966] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069417.715404480] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069417.715918565] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069417.716220163] [move_group_demo]: Aligning Gripper
+[rviz2-1] [WARN] [1710069417.835702962] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069417.848348640] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069417.848465777] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710069417.892561874] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 60 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069417.894519987] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710069417.894718215] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[pick_and_place_real-1] [INFO] [1710069417.894706215] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069417.894754752] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069417.894783335] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069417.894906705] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069417.922699940] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069418.027192636] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069418.027269484] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069418.027294888] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069418.027461735] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069418.085875970] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 38ms/step
+[move_group-1] [INFO] [1710069418.278449308] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069418.278494963] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069418.335970599] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069418.585990756] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069418.836099911] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069419.086139812] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069419.336338716] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069419.586355868] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069419.836412989] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069420.086620660] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069420.336696566] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069420.586691596] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069420.836813567] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069421.086953004] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069421.336947598] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069421.587107304] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069421.837189589] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069422.087239439] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069422.337377161] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069422.578897737] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[rviz2-1] [WARN] [1710069422.587413909] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069422.837442968] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069422.985170280] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069422.985294730] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069422.985850042] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069422.986211943] [move_group_demo]: Going to Hole0
+[pick_and_place_real-1] [INFO] [1710069422.986466479] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710069422.986842087] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[pick_and_place_real-1] [INFO] [1710069422.987220920] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1710069422.987033226] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[rviz2-1] [WARN] [1710069423.087605502] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069423.118474535] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710069423.119115075] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [INFO] [1710069423.522303057] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[rviz2-1] [WARN] [1710069423.522775260] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069423.523200467] [move_group_interface]: Planning request complete!
+[pick_and_place_real-1] [INFO] [1710069423.523607140] [move_group_interface]: time taken to generate plan: 0.0515648 seconds
+[move_group-1] [INFO] [1710069423.524106510] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069423.524292795] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069423.524301290] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069423.524336790] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069423.524366352] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069423.524439062] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069423.586650654] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[rviz2-1] [WARN] [1710069423.587700167] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069423.656557681] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069423.656628973] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069423.656659856] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069423.656869598] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+211 122
+Distance value2: 0.538 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+[rviz2-1] [WARN] [1710069423.837788316] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069423.907604045] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069423.907643943] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069424.087857443] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069424.337936382] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069424.588060120] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069424.838253339] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069425.088194793] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069425.338295766] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069425.588394157] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069425.838513803] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+[rviz2-1] [WARN] [1710069426.088541886] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069426.338647887] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069426.588846414] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069426.758580951] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[rviz2-1] [WARN] [1710069426.838889169] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069427.088900437] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069427.160791654] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069427.160893312] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069427.161496441] [move_group_interface]: Execute request success!
+[move_group-1] [INFO] [1710069427.294584374] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069427.294705948] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710069427.301495573] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 10 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069427.302583638] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710069427.302752475] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[pick_and_place_real-1] [INFO] [1710069427.302742936] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069427.302782353] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069427.302809157] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069427.302895015] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069427.339059298] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069427.375867022] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069427.434684290] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069427.434755493] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069427.434780929] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069427.434974556] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069427.589119790] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069427.698245880] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069427.698315477] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069427.839122723] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069428.090326130] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.538 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069428.339245399] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069428.589335103] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 38ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 38ms/step
+[rviz2-1] [WARN] [1710069428.839458381] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069429.089504767] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069429.135648829] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+[rviz2-1] [WARN] [1710069429.339594979] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069429.533839979] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069429.533953893] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069429.534516198] [move_group_interface]: Execute request success!
+[pick_and_place_real-1] [INFO] [1710069429.534916912] [move_group_demo]: Release Object!
+[pick_and_place_real-1] [INFO] [1710069429.535083849] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1710069429.535383325] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1710069429.535566018] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[pick_and_place_real-1] [INFO] [1710069429.536112588] [move_group_interface]: Planning request accepted
+[rviz2-1] [WARN] [1710069429.589629069] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069429.666137583] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1710069429.666646362] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'gripper' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[move_group-1] [INFO] [1710069430.166366468] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[rviz2-1] [WARN] [1710069430.166898592] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069430.167434772] [move_group_interface]: Planning request complete!
+[rviz2-1] [WARN] [1710069430.167109008] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069430.167967845] [move_group_interface]: time taken to generate plan: 0.0281226 seconds
+[pick_and_place_real-1] [INFO] [1710069430.168479516] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069430.168292935] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[move_group-1] [INFO] [1710069430.168475222] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069430.168507721] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069430.168533207] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069430.168600321] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069430.185737563] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069430.300466570] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069430.300537176] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069430.300562577] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[rviz2-1] [WARN] [1710069430.417129473] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069430.667250533] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069430.917416618] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.538 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[move_group-1] [WARN] [1710069431.050593105] [moveit.simple_controller_manager.gripper_controller_handle]: waitForExecution timed out
+[move_group-1] [ERROR] [1710069431.050645324] [moveit_ros.trajectory_execution_manager]: Controller is taking too long to execute trajectory (the expected upper bound for the trajectory execution was 0.500000 seconds). Stopping trajectory.
+[move_group-1] [INFO] [1710069431.050676437] [moveit.simple_controller_manager.gripper_controller_handle]: Cancelling execution for gripper_controller
+[rviz2-1] [WARN] [1710069431.167585358] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069431.300168525] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status TIMED_OUT ...
+[move_group-1] [INFO] [1710069431.300298005] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: TIMED_OUT
+[pick_and_place_real-1] [INFO] [1710069431.300848634] [move_group_interface]: Execute request aborted
+[pick_and_place_real-1] [ERROR] [1710069431.301885413] [move_group_interface]: MoveGroupInterface::execute() failed or timeout reached
+[rviz2-1] [WARN] [1710069431.417669404] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069431.667608870] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069431.917668921] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069432.167855275] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069432.417925398] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069432.667959224] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069432.918018246] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069433.168210192] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069433.418235770] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069433.668256325] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069433.918397386] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step
+[rviz2-1] [WARN] [1710069434.168542871] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069434.418587515] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.535 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+[rviz2-1] [WARN] [1710069434.668663570] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069434.918804992] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069435.168951486] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069435.418942634] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069435.669041976] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step
+[rviz2-1] [WARN] [1710069435.919227175] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069436.169240288] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069436.419417509] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069436.434408589] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Received request to compute Cartesian path
+[move_group-1] [INFO] [1710069436.434512183] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Attempting to follow 1 waypoints for link 'tool0' using a step of 0.010000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-1] [INFO] [1710069436.456887631] [moveit_move_group_default_capabilities.cartersian_path_service_capability]: Computed Cartesian path with 61 points (followed 100.000000% of requested trajectory)
+[move_group-1] [INFO] [1710069436.458067414] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Received goal request
+[pick_and_place_real-1] [INFO] [1710069436.458235931] [move_group_interface]: Execute request accepted
+[move_group-1] [INFO] [1710069436.458298797] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution request received
+[move_group-1] [INFO] [1710069436.458350139] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069436.458377588] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069436.458489069] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[rviz2-1] [WARN] [1710069436.540269311] [moveit_rviz_plugin_render_tools.trajectory_visualization]: Received a trajectory to display for model 'name' but model 'ur3e' was expected
+[move_group-1] [INFO] [1710069436.590919866] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-1] [INFO] [1710069436.590995300] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069436.591022672] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1710069436.591209097] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller
+[rviz2-1] [WARN] [1710069436.669579834] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069436.841093681] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution
+[move_group-1] [INFO] [1710069436.841134047] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[rviz2-1] [WARN] [1710069436.919503774] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069437.169587449] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069437.419741745] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [WARN] [1710069437.669830088] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069437.919855297] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069438.169928535] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069438.420112704] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.538 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 35ms/step
+[rviz2-1] [WARN] [1710069438.670117766] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069438.920131440] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069439.170231713] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.535 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[rviz2-1] [WARN] [1710069439.420409722] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069439.670544445] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069439.920611195] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069440.170681750] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069440.420978140] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069440.670921654] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069440.741732429] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+[rviz2-1] [WARN] [1710069440.920918832] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[move_group-1] [INFO] [1710069441.138815461] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-1] [INFO] [1710069441.138940659] [moveit_move_group_default_capabilities.execute_trajectory_action_capability]: Execution completed: SUCCEEDED
+[pick_and_place_real-1] [INFO] [1710069441.139462526] [move_group_interface]: Execute request success!
+[rviz2-1] [WARN] [1710069441.170988693] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069441.421202443] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069441.671247617] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069441.921369569] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069442.171381631] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069442.421481911] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [WARN] [1710069442.671578131] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069442.921657220] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069443.171718340] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069443.421786547] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069443.671894940] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069443.921953607] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069444.172054182] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069444.422225304] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069444.672235293] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069444.922407937] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069445.172406618] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069445.422517820] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069445.672668609] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069445.922675554] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[pick_and_place_real-1] [INFO] [1710069446.140113153] [move_group_demo]: Shutting down...
+[rviz2-1] [WARN] [1710069446.172764595] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.535 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069446.422866463] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069446.672939027] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[INFO] [pick_and_place_real-1]: process has finished cleanly [pid 28733]
+[rviz2-1] [WARN] [1710069446.923047718] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [WARN] [1710069447.177510827] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069447.423214344] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069447.673323506] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069447.923351369] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069448.173598451] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069448.423629550] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069448.673600737] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069448.923701823] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069449.173891249] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069449.424016522] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069449.673947579] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069449.924125372] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069450.174288358] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069450.424296211] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069450.674470826] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069450.924444050] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069451.174538840] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069451.424629324] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 43ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 43ms/step
+[rviz2-1] [WARN] [1710069451.674729227] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069451.924784847] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069452.174839917] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069452.424949619] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[rviz2-1] [WARN] [1710069452.675015777] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069452.925266684] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069453.175220196] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [WARN] [1710069453.425298334] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069453.675383481] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069453.925462838] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 37ms/step
+[rviz2-1] [WARN] [1710069454.175555801] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069454.425663531] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069454.675749127] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069454.925845110] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069455.175972453] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069455.426263649] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069455.676130085] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069455.926209738] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069456.176290369] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069456.426582462] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069456.676460316] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step
+[rviz2-1] [WARN] [1710069456.926650348] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069457.176725402] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069457.426811795] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069457.676924246] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069457.926982196] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069458.177155407] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069458.427162361] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069458.677246668] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069458.927520268] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069459.177569457] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069459.427742084] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069459.677735485] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069459.927873232] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069460.177946631] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069460.428374748] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069460.678487396] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step
+[rviz2-1] [WARN] [1710069460.928524810] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069461.178559041] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069461.428677576] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069461.678746188] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069461.928808590] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069462.178935868] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069462.429116431] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069462.679159472] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 43ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 43ms/step
+[rviz2-1] [WARN] [1710069462.929299926] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069463.179267675] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069463.429403437] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069463.679540758] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069463.929531853] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069464.179611371] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[rviz2-1] [WARN] [1710069464.429663172] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069464.679758868] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069464.930469021] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069465.180143325] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 40ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 40ms/step
+[rviz2-1] [WARN] [1710069465.430297803] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069465.680184619] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.538 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069465.930306238] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069466.180381712] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069466.430522945] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069466.680551203] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.535 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step
+[rviz2-1] [WARN] [1710069466.930714959] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069467.180730745] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069467.430933227] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069467.680983483] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.535 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 30ms/step
+[rviz2-1] [WARN] [1710069467.931032741] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069468.181072155] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069468.431171410] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069468.681229663] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069468.931320783] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069469.181464083] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069469.431595385] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069469.681765642] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069469.931692062] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069470.181761363] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069470.431871355] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 31ms/step
+[rviz2-1] [WARN] [1710069470.681964954] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069470.932037597] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069471.182146927] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069471.432175748] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069471.682393409] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.535 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 33ms/step
+[rviz2-1] [WARN] [1710069471.932363643] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069472.182499738] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069472.432676467] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069472.682644949] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069472.932837773] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069473.182826049] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069473.432912672] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.537 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 34ms/step
+[rviz2-1] [WARN] [1710069473.683061978] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069473.933191787] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069474.183198576] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069474.433261718] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069474.683472014] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069474.933430837] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069475.183547750] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069475.433668168] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069475.683801465] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 32ms/step
+[rviz2-1] [WARN] [1710069475.934139158] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069476.183888131] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069476.433974859] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 48ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 48ms/step
+[rviz2-1] [WARN] [1710069476.684033381] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069476.934139619] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069477.184311207] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.534 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[rviz2-1] [WARN] [1710069477.434434582] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069477.684494201] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069477.934528979] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 36ms/step
+[rviz2-1] [WARN] [1710069478.186274445] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069478.434665052] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069478.684740546] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069478.934867990] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069479.185010325] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069479.435039625] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069479.685193649] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069479.935189476] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069480.185273879] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069480.435317033] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069480.685428842] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069480.935573609] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069481.185734147] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069481.435708510] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069481.685985002] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069481.935868066] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+211 122
+Distance value2: 0.536 m
+Shape of the image: (240, 320)
+[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 46ms/step[1m1/1[0m [32m������������������������������������������������������������[0m[37m[0m [1m0s[0m 46ms/step
+[rviz2-1] [WARN] [1710069482.186054219] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069482.436071234] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069482.686182790] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069482.936216373] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069483.186350110] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[rviz2-1] [WARN] [1710069483.438586174] [moveit_planning_scene.planning_scene]: Setting the scene for model 'name' but model 'ur3e' is loaded.
+[8mha:////4G0Ca1T5CaOBeIQalGS4O++CWK7++KZZB3RD5coAG3XwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4EL9xwmhMqxFomOwQCMYe6HlUSpG6ui3GtgQcnuUhuhBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4ElMcyxrrWP6gPrrUL9a+M7pLWF4ntHHFGTq25sEXGxwAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BhStF0r0AAAA=[0m[Pipeline] }
+[8mha:////4J+5tN/VTDs97fJjp5R1LbN4TY3tPcnAT/ogIlZ3mHABAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+Wl0FxvQAAAA==[0m[Pipeline] // node
+[8mha:////4IRxHnBgMPi7Y0jsqFJ+cKAZh2jZAWUNCeN3QVrApB1UAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94J8Xwqy8gPQ3eZBvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

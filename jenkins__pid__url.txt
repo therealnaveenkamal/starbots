@@ -1,0 +1,5 @@
+To stop Jenkins, run:
+kill 7700
+
+Jenkins URL: 
+https://i-0d54e7b887b69a36a.robotigniteacademy.com/82601360-67e9-4635-b24f-afa99f653e13/jenkins/

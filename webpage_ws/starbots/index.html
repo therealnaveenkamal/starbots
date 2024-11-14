@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Starbots.AI - Taste the Robotic Coffee</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            max-width: 800px;
+            max-height: 600px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            overflow: auto;
+        }
+
+        #close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+
+
+
+    <!-- ROS stuff -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/eventemitter2/lib/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="https://s3.eu-west-1.amazonaws.com/rosject.io/js/roslib.min.js"></script>
+    <!-- 3D visualization -->
+    <!-- <script src="http://static.robotwebtools.org/threejs/current/three.min.js"></script> -->
+    <script src="./libs/three.min.js"></script>
+    <!-- <script src="http://static.robotwebtools.org/threejs/current/ColladaLoader.min.js"></script> -->
+    <script src="./libs/ColladaLoader.js"></script>
+    <!-- <script src="http://static.robotwebtools.org/ColladaAnimationCompress/current/ColladaLoader2.min.js"></script> -->
+    <script src="./libs/ColladaLoader2.js"></script>
+    <!-- <script src="http://static.robotwebtools.org/threejs/current/STLLoader.min.js"></script> -->
+    <script src="./libs/STLLoader.js"></script>
+    <!-- <script src="http://static.robotwebtools.org/ros3djs/current/ros3d.min.js"></script> -->
+    <script src="./libs/ros3d.min.js"></script>
+    <!-- Vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script type="text/javascript" src="mjpegcanvas.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-md d-flex align-items-center">
+                    <p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">+91 95855 58476</a> or <span
+                            class="mailus">email us:</span> <a href="#">therealnaveenkamal@gmail.com</a></p>
+                </div>
+                <div class="col-12 col-md d-flex justify-content-md-end">
+                    <p class="mb-0">Mon - Fri / 9:00-21:00 </p>
+                    <div class="social-media">
+                        <p class="mb-0 d-flex">
+                            <a href="https://www.facebook.com/theconstructsim"
+                                class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
+                                        class="sr-only">Facebook</i></span></a>
+                            <a href="https://twitter.com/_theconstruct_"
+                                class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i
+                                        class="sr-only">Twitter</i></span></a>
+                            <a href="https://youtube.com/@TheConstruct"
+                                class="d-flex align-items-center justify-content-center"><span class="fa fa-youtube"><i
+                                        class="sr-only">YouTube</i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Starbots<span>.AI</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-wrap">
+        <div class="home-slider owl-carousel js-fullheight">
+            <div class="slider-item js-fullheight" style="background-image:url(images/coffee1.jpeg);">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                        <div class="col-md-12 ftco-animate">
+                            <div class="text w-100 mt-5 text-center">
+                                <span class="subheading">Starbots.AI Cafeteria</h2></span>
+                                <h1>Caffeinating Since</h1>
+                                <span class="subheading-2">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item js-fullheight" style="background-image:url(images/coffee2.png);">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                        <div class="col-md-12 ftco-animate">
+                            <div class="text w-100 mt-5 text-center">
+                                <span class="subheading">Starbots.AI Cafeteria</h2></span>
+                                <h1>Served with Love</h1>
+                                <span class="subheading-2 sub">By Starbots</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- main content -->
+
+    </section>
+
+
+    <section class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-sm-4 p-4 p-md-5 d-flex align-items-center justify-content-center bg-primary">
+                    <form action="#" class="appointment-form">
+                        <h3 class="mb-3">Book your coffee</h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="name" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="submit" value="Order a Coffee Now" class="btn btn-white py-3 px-4"
+                                        onclick="openPopup()">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-8 wrap-about py-5 ftco-animate img"
+                    style="background-image: url(images/coffee_chef.png);">
+                    <div class="row pb-5 pb-md-0">
+                        <div class="col-md-12 col-lg-7">
+                            <div class="heading-section mt-5 mb-4">
+                                <div class="pl-lg-3 ml-md-5">
+                                    <span class="subheading">About</span>
+                                    <h2 class="mb-4">Welcome to Starbots.AI</h2>
+                                </div>
+                            </div>
+                            <div class="pl-lg-3 ml-md-5">
+                                <p>Our caffeinated symphony begins with a robotic ballet: a sleek arm pirouettes,
+                                    expertly grinding beans, while the coffee machine hums in harmony. The result? A
+                                    cup
+                                    of liquid stardust.</p>
+                                <p>Meet our mobile coffee couriers—part R2-D2, part caffeine whisperer. They glide
+                                    through the café, trays aloft, delivering java like interstellar postcards. So
+                                    grab
+                                    your cup of an algorithmic elixir, and let the future percolate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="popup" style="padding: 20px;">
+        <!-- Message instructing users to open the link in a new tab -->
+        <p><a href="https://app.theconstructsim.com/GraphicalTools/" target="_blank">Click here to view more</a></p>
+        <!-- Close button -->
+        <span id="close-btn" onclick="closePopup()">Close</span>
+
+        <h1>Order Status</h1>
+
+        <div class="col-md-12 col-sm-6 text-center">
+            <div id="divCamera"></div>
+        </div>
+
+        <div class="progress" style="position: absolute; bottom: 20px; left: 20px; right: 20px;">
+            <div id="progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100"></div>
+        </div>
+    </div>
+
+    <div id="thank-you-popup"
+        style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 9999; text-align: center;">
+        <div
+            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px;">
+            <p><a href="https://app.theconstructsim.com/GraphicalTools/" target="_blank">Click here to view more</a></p>
+            <!-- Close button -->
+
+            <h1>Thank You!!</h1>
+            <h3>Thank you for choosing Starbots.AI. You will be redirected in 5 seconds</h3>
+        </div>
+    </div>
+
+    <div id="loading-popup"
+        style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 9999; text-align: center;">
+        <div
+            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px;">
+            <p>Loading...</p>
+        </div>
+    </div>
+
+
+    <section class="ftco-section ftco-intro" style="background-image: url(images/coffee_bg3.avif);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span>Open for Orders</span>
+                    <h2>Order from anywhere across the world!</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <span class="subheading">Specialties</span>
+                    <h2 class="mb-4">Our Menu</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="menu-wrap">
+                        <div class="heading-menu text-center ftco-animate">
+                            <h3>Cappuccino</h3>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(images/cappuccino.png);"></div>
+                            <div class="text">
+                                <p>A symphony in three acts—espresso, steamed milk, and frothy foam. Picture a velvety
+                                    sip, where the rich coffee notes waltz with the airy embrace of milk. It’s like
+                                    sipping a cloud at sunrise.</p>
+                            </div>
+                        </div>
+                        <span class="flat flaticon-bread" style="left: 0;"></span>
+                        <span class="flat flaticon-breakfast" style="right: 0;"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="menu-wrap">
+                        <div class="heading-menu text-center ftco-animate">
+                            <h3>Americano</h3>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(images/americano.png);"></div>
+                            <div class="text">
+                                <p>The rebel of the coffee world. Start with a bold shot of espresso, then dilute it
+                                    with hot water. The result? A drink that’s unapologetically strong, like a midnight
+                                    conversation with the universe.</p>
+                            </div>
+                        </div>
+                        <span class="flat flaticon-pizza" style="left: 0;"></span>
+                        <span class="flat flaticon-chicken" style="right: 0;"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="menu-wrap">
+                        <div class="heading-menu text-center ftco-animate">
+                            <h3>Matcha Latte</h3>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(images/matcha_latte.webp);"></div>
+                            <div class="text">
+                                <p>A serene green potion—a dance of powdered matcha and silky milk. Imagine sipping
+                                    tranquility itself, with earthy undertones and a whisper of zen. It’s the elixir
+                                    that turns mornings into poetry.</p>
+                            </div>
+                        </div>
+
+                        <span class="flat flaticon-omelette" style="left: 0;"></span>
+                        <span class="flat flaticon-burger" style="right: 0;"></span>
+                    </div>
+                </div>
+
+                <!--  -->
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="ftco-section testimony-section" style="background-image: url(images/coffee_bg1.avif);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center mb-3 pb-2">
+                <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                    <span class="subheading">Testimony</span>
+                    <h2 class="mb-4">Happy Customer</h2>
+                </div>
+            </div>
+            <div class="row ftco-animate justify-content-center">
+                <div class="col-md-7">
+                    <div class="carousel-testimony owl-carousel ftco-owl">
+                        <div class="item">
+                            <div class="testimony-wrap text-center">
+                                <div class="text p-3">
+                                    <p class="mb-4">How cool is it to get your cup of coffee to your work desk! It was
+                                        surreal to experience a robotic coffee. Worth it!</p>
+                                    <div class="user-img mb-4" style="background-image: url(images/naveen2.jpg)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="fa fa-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <p class="name">Naveen</p>
+                                    <span class="position">Customer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap text-center">
+                                <div class="text p-3">
+                                    <p class="mb-4">Apart from the coffee, what interests me more is the tech stack
+                                        behind the coffee making process. The beautiful coordination by the Robotic arm,
+                                        Mobile Robot and the Coffee Machine makes me curious to learn more about ROS and
+                                        Robotics.</p>
+                                    <div class="user-img mb-4" style="background-image: url(images/person_4.jpg)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="fa fa-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <p class="name">Xavier Castillo</p>
+                                    <span class="position">Customer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap text-center">
+                                <div class="text p-3">
+                                    <p class="mb-4">What I loved about the Starbots.AI Cafeteria is that the coffee
+                                        order can be placed from any part of the world.</p>
+                                    <div class="user-img mb-4" style="background-image: url(images/akash.jpg)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="fa fa-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <p class="name">Akash</p>
+                                    <span class="position">Customer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <span class="subheading">Team</span>
+                    <h2 class="mb-4">Our Robotics Team</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img" style="background-image: url(images/arm.jpg);"></div>
+                        <div class="text px-4 pt-2">
+                            <h3>UR3E Starbots Arm</h3>
+                            <span class="position mb-2">Chief Coordinator</span>
+                            <div class="faded">
+                                <p>I am an ambitious workaholic. I holistically work with the delivery and the cook
+                                    departments to ensure quality and on-time delivery. I have 3 degree of freedom and I
+                                    work with the help of my Realsense 3D Vision department.</p>
+                                <ul class="ftco-social d-flex">
+                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img" style="background-image: url(images/coffee_machine.png);"></div>
+                        <div class="text px-4 pt-2">
+                            <h3>Starbots Coffee Maker</h3>
+                            <span class="position mb-2">Head Chef</span>
+                            <div class="faded">
+                                <p>I am responsible for your order, quantity of the output and ofcourse the taste. I
+                                    deliver with utmost care and responsibilty and I ensures that the customers are our
+                                    top priority.</p>
+                                <ul class="ftco-social d-flex">
+                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img" style="background-image: url(images/barista.png);"></div>
+                        <div class="text px-4 pt-2">
+                            <h3>Starbots Barista</h3>
+                            <span class="position mb-2">Chef Logistics Manager</span>
+                            <div class="faded">
+                                <p>Hi, I am your Barista, Delivery Manager of Starbots.AI. I am responsible for on-time
+                                    delivery from the cafeteria to your workdesk. Sky is the limit to ensure our
+                                    commitment towards our customers. We promise a 5-minute delivery guarantee to ensure
+                                    customer satisfaction.</p>
+                                <ul class="ftco-social d-flex">
+                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img" style="background-image: url(images/naveen2.jpg);"></div>
+                        <div class="text px-4 pt-2">
+                            <h3>Naveenraj</h3>
+                            <span class="position mb-2">Head of Starbots.AI</span>
+                            <div class="faded">
+                                <p>I work with Starbots Arm, Coffee Maker and Barista to ensure on-time delivery and
+                                    customer satisfaction. I work towards smoother functioning of all my departments
+                                    ensuring relentless coffee delivery.</p>
+                                <ul class="ftco-social d-flex">
+                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-intro bg-primary">
+        <div class="container py-5">
+            <div class="row py-2">
+                <div class="col-md-12 text-center">
+                    <h2>We Make Delicious &amp; Robotic Caffeine</h2>
+                    <a href="#" class="btn btn-white btn-outline-white">Order a Coffee Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ftco-footer ftco-no-pb ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Starbots.AI</h2>
+                        <p>Starbots.AI Cafeteria is a robot only coffee preparation and delivery system that is powered
+                            by The Construct</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="https://twitter.com/_theconstruct_"><span
+                                        class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/theconstructsim"><span
+                                        class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://youtube.com/@TheConstruct"><span
+                                        class="fa fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Open Hours</h2>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Sunday</span><span> Closed</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Official Website</h2>
+                        <div class="thumb d-sm-flex">
+                            <a href="https://www.theconstruct.ai/robotics-developer/" class="thumb-menu img"
+                                style="background-image: url(images/insta1.png);">
+                            </a>
+                            <a href="https://www.theconstruct.ai/robotics-developer/" class="thumb-menu img"
+                                style="background-image: url(images/insta2.png);">
+                            </a>
+                            <a href="https://www.theconstruct.ai/robotics-developer/" class="thumb-menu img"
+                                style="background-image: url(images/insta3.png);">
+                            </a>
+                        </div>
+                        <div class="thumb d-flex">
+                            <a href="https://www.theconstruct.ai/robotics-developer/" class="thumb-menu img"
+                                style="background-image: url(images/insta4.png);">
+                            </a>
+                            <a href="https://www.theconstruct.ai/robotics-developer/" class="thumb-menu img"
+                                style="background-image: url(images/insta5.png);">
+                            </a>
+                            <a href="https://www.theconstruct.ai/robotics-developer/" class="thumb-menu img"
+                                style="background-image: url(images/insta6.png);">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Newsletter</h2>
+                        <p>We send Robotics and AI based newsletters. If you want to read them, drop in your email
+                            below.</p>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-2 text-center"
+                                    placeholder="Enter email address">
+                                <input type="submit" value="Subscribe" class="form-control submit px-3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0 bg-primary py-3">
+            <div class="row no-gutters">
+                <div class="col-md-12 text-center">
+
+                    <p class="mb-0">
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Made with <i class="fa fa-heart"
+                            aria-hidden="true"></i> for The Construct by <a href="https://itsnav.com"
+                            target="_blank">Nav</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Function to open the pop-up window
+        document.getElementById('thank-you-popup').style.display = 'none';
+        function openPopup() {
+            // Display the loading popup
+            document.getElementById('loading-popup').style.display = 'block';
+
+            // Make a web API request
+            fetch('https://i-0d54e7b887b69a36a.robotigniteacademy.com/82601360-67e9-4635-b24f-afa99f653e13/jenkins/job/Cafe/build?token=thisisaspecialtoken')
+                .then(response => {
+                    // Hide the loading popup
+                    document.getElementById('loading-popup').style.display = 'none';
+
+                    if (!response.ok) {
+                        throw new Error('Failed to make the API request');
+                    }
+                    // If the request is successful, display the popup
+                    document.getElementById('popup').style.display = 'block';
+                    // Start the progress bar
+                    startProgressBar();
+
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    // Handle error if necessary
+                    // Hide the loading popup
+                    document.getElementById('loading-popup').style.display = 'none';
+                });
+        }
+
+        // Function to close the pop-up window
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        function startProgressBar() {
+            var progressBar = document.getElementById('progress-bar');
+            var progress = 0;
+            var interval = setInterval(function () {
+                if (progress < 100) {
+                    progress++;
+                    progressBar.style.width = progress + '%';
+                    progressBar.setAttribute('aria-valuenow', progress);
+                } else {
+                    clearInterval(interval);
+                    console.log("Task Completed");
+                    document.getElementById('popup').style.display = 'none'; // Hide the regular popup
+                    document.getElementById('thank-you-popup').style.display = 'block'; // Display the thank you popup
+                    // Redirect to a website after 5 seconds
+                    setTimeout(function () {
+                        window.location.href = "https://app.theconstructsim.com/GraphicalTools/"; // Replace with your desired URL
+                    }, 5000); // 5000 milliseconds = 5 seconds
+                }
+            }, 1200); // Adjust the interval based on your requirement (2 minutes / 100 steps)
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'main.js?v=3.' + Date.now();
+        document.head.appendChild(script);
+    </script>
+
+</body>
+
+</html>

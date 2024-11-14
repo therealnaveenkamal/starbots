@@ -1,0 +1,12 @@
+Last Config Dir: /home/user/catkin_ws/src/fetch_moveit_config/launch
+Last Image Dir: ""
+Recent Configs:
+  - /home/user/catkin_ws/src/fetch_moveit_config/launch/moveit.rviz
+  - /home/user/catkin_ws/src/rbkairos_moveit_config/launch/moveit.rviz
+  - /home/simulations/public_sim_ws/src/all/shadow_tc/smart_grasp_mod_moveit_config/launch/moveit.rviz
+  - /home/user/.rviz/default.rviz
+  - /opt/ros/indigo/share/rtabmap_ros/launch/config/turtlebot_navigation.rviz
+  - /opt/ros/indigo/share/rtabmap_ros/launch/config/demo_robot_mapping.rviz
+  - /opt/ros/indigo/share/turtlebot_rviz_launchers/rviz/planning_demo.rviz
+  - /opt/ros/indigo/share/turtlebot_rviz_launchers/rviz/amcl_demo.rviz
+  - /opt/ros/indigo/share/turtlebot_rviz_launchers/rviz/gmapping_demo.rviz
