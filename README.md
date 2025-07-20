@@ -109,8 +109,8 @@ After cloning the repository, follow these steps to build and execute the projec
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone git@github.com:therealnaveenkamal/starbots.git
+cd starbots
 ```
 
 ### Step 2: Build the Project
